@@ -18,56 +18,40 @@
     <main>
       <section>
         <h2>Contact Information</h2>
-        <p>
-          For general inquiries about the TechCon 2024 conference, feel free to reach out to us.
-        </p>
-
         <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
-
         <p>
-          Follow us on social media:
-          <a href="https://www.twitter.com" target="_blank">Twitter</a> |
-          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+          Social Media:
+          <a href="https://www.twitter.com" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
           <a href="https://www.facebook.com" target="_blank">Facebook</a>
         </p>
       </section>
 
       <section>
-        <h2>Conference Venue</h2>
-        <p>View the conference venue location on the map below.</p>
-
+        <h2>Conference Location</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9556513159047!3d-37.81732797975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ5JzAyLjQiUyAxNDTCsDU3JzI2LjMiRQ!5e0!3m2!1sen!2s!4v1700000000000"
           width="100%"
           height="300"
           style="border:0;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
+          allowfullscreen
+          loading="lazy">
         </iframe>
       </section>
 
       <section>
         <h2>Contact Us Form</h2>
         <form action="#" method="post">
-          <div>
-            <label for="contact-name">Name:</label>
-            <input id="contact-name" name="contact-name" type="text" required>
-          </div>
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="name" required>
 
-          <div>
-            <label for="contact-email">Email:</label>
-            <input id="contact-email" name="contact-email" type="email" required>
-          </div>
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="email" required>
 
-          <div>
-            <label for="contact-message">Message:</label>
-            <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
-          </div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
 
-          <div>
-            <button type="submit">Send Message</button>
-          </div>
+          <button type="submit">Send Message</button>
         </form>
       </section>
     </main>
